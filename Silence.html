@@ -4,46 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Two Column Text Editor</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            height: 100vh;
-            overflow: hidden;
-        }
-        
-        .container {
-            display: flex;
-            height: 100vh;
-            gap: 2px;
-            background: #ccc;
-        }
-        
-        textarea {
-            flex: 1;
-            padding: 20px;
-            background: white;
-            border: none;
-            resize: none;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            line-height: 1.5;
-            outline: none;
-        }
-        
-        textarea:focus {
-            background: #fafafa;
-        }
-    </style>
+    <!-- site styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="container">
-        <textarea>
+        <pre>
 Je ne dis pas ces mots
 Que tu veux entendre
 Je mets seulement ma bouche
@@ -70,8 +36,8 @@ Qui a vu ton corps
 Si pâle et si tendre
 Maintenant elle essaye
 De laver cette ville
-        </textarea>
-        <textarea>
+        </pre>
+        <pre>
 I don't say those words
 That you want to hear
 I only put my mouth
@@ -98,7 +64,7 @@ That has seen your body
 So pale and so tender
 Now it tries
 To wash this city clean
-        </textarea>
+        </pre>
     </div>
 </body>
 </html>

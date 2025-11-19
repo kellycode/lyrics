@@ -4,46 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Two Column Text Editor</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            height: 100vh;
-            overflow: hidden;
-        }
-        
-        .container {
-            display: flex;
-            height: 100vh;
-            gap: 2px;
-            background: #ccc;
-        }
-        
-        textarea {
-            flex: 1;
-            padding: 20px;
-            background: white;
-            border: none;
-            resize: none;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            line-height: 1.5;
-            outline: none;
-        }
-        
-        textarea:focus {
-            background: #fafafa;
-        }
-    </style>
+    <!-- site styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="container">
-        <textarea>
+        <pre>
 Y a que quand le soleil se couche
 Que le gris de ses yeux s'irise
 Il suffit qu'un rayon la touche
@@ -93,8 +59,8 @@ Ou sur le grain d'épiderme à rosée
 Sur son ventre las
 Je reste là
 Où elle est
-        </textarea>
-        <textarea>
+        </pre>
+        <pre>
 Only when the sun sets
 Does the gray of her eyes shimmer
 A single ray of sunlight touches her
@@ -144,7 +110,7 @@ Or on the dewdrop-covered epidermis
 On her weary womb
 I remain there
 Where she is
-        </textarea>
+        </pre>
     </div>
 </body>
 </html>

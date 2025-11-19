@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: auto;
+    overflow: auto;
+}
+
+ul {
+    width: 300px;
+    margin: 50px auto;
+}
+
+li {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+pre {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: monospace;
+    white-space: pre;
+}
+
+pre:focus {
+    background: #fafafa;
+}
