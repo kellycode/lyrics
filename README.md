@@ -1,0 +1,2 @@
+# lyrics
+Translated lyrics pages
