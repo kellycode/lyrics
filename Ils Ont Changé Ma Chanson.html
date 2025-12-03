@@ -3,47 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Two Column Text Editor</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            height: 100vh;
-            overflow: hidden;
-        }
-        
-        .container {
-            display: flex;
-            height: 100vh;
-            gap: 2px;
-            background: #ccc;
-        }
-        
-        textarea {
-            flex: 1;
-            padding: 20px;
-            background: white;
-            border: none;
-            resize: none;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            line-height: 1.5;
-            outline: none;
-        }
-        
-        textarea:focus {
-            background: #fafafa;
-        }
-    </style>
+    <!-- Song by Stephan Eicher -->
+    <title>Ils ont changé ma chanson</title>
+    <!-- site styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="container">
-        <textarea>
+        <pre>
 Ils ont changé ma chanson 'ma
 Ils ont changé ma chanson
 C'est la seule chose que je peux faire
@@ -79,8 +46,8 @@ Ils ont changé ma chanson
 Et c'est la seule chose que je peux faire
 Et c'est pas beau 'ma
 Ils ont changé ma chanson
-        </textarea>
-        <textarea>
+        </pre>
+        <pre>
 They changed my song, ma
 They changed my song
 It's the only thing I can do
@@ -115,7 +82,7 @@ They changed my song
 And it's the only thing I can do
 And it's not pretty
 They changed my song
-        </textarea>
+        </pre>
     </div>
 </body>
 </html>
