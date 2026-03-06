@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     height: auto;
     overflow: auto;
+    background: black;
 }
 
 ul {
@@ -24,19 +25,20 @@ li {
     height: auto;
     max-width: 1400px;
     margin: 0 auto;
-    background: #ccc;
+    background: black;
 }
 
 pre {
     flex: 1;
     padding: 20px;
-    background: white;
+    background: black;
     font-size: 20px;
     line-height: 1.5;
     font-family: monospace;
     white-space: pre;
+    color: #fafafa;
 }
 
 pre:focus {
-    background: #fafafa;
+    background: black;
 }
